@@ -1,0 +1,13 @@
+{
+  "days": 5,
+  "slots_per_day": 6,
+  "teachers": [
+    {"id": "T1", "name": "Alice", "max_hours_per_day": 4, "availability": [[1,1,0],[1,1,1],[1,0,1],[1,1,1],[1,1,0]]}
+  ],
+  "rooms": [
+    {"id": "R1", "capacity": 50}
+  ],
+  "courses": [
+    {"id": "C1", "name": "DSA", "hours_per_week": 3, "teacher_id": "T1"}
+  ]
+}
